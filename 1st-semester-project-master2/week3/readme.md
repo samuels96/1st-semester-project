@@ -1,1 +1,0 @@
-Week 3 - practice using the RPIo.GPIO library, making LED blink in sequence using a button
