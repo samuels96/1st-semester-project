@@ -50,9 +50,7 @@ def init_pwm():
 	m2.start(ds)
 	m3.start(ds)
 	m4.start(ds)
-
-
-
+	
 def loop():
 		
 		#initialize variables that will hold the values of each individual motor duty cycle, set to ds as a default
@@ -99,7 +97,7 @@ def loop():
             else:
 				if state == 1:
 					GPIO.output([en1, en2, en3, en4], 0)
-
+					
 def main():
 
 	setup()
